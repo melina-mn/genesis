@@ -63,31 +63,30 @@
     flex-wrap: wrap;
     margin-top: 20px;
     padding: 10px;
+    
+    // wrong scss coding
     &__four{
             margin-top: -170px;
     }
     &__five{
         margin-top: -233px;
-
- }
- &__six{
-    margin-top: 15px;
- }
- &__sev{
-    margin-top: -110px;
- }
- &__eight{
-    margin-top: -230px;
- }
- &__ten{
-    margin-top: -170px;
- }
- &__elv{
-    margin-top: -230px;
+    }
+    &__six{
+        margin-top: 15px;
+    }
+    &__sev{
+        margin-top: -110px;
+    }
+    &__eight{
+        margin-top: -230px;
+    }
+    &__ten{
+        margin-top: -170px;
+    }
+    &__elv{
+        margin-top: -230px;
  }
 }
-
-// wrong scss coding
 
 img{
     margin-top: 20px;
@@ -98,6 +97,7 @@ img{
 .container__txt{
     width: 1079px;
     height: 106px;
+    display: flex;
     &__prgh{
         width: 635px;
         height: 106px;
@@ -106,6 +106,16 @@ img{
         font-style: normal;
         font-weight: 700;
         line-height: 38px; /* 135.714% */
+        margin-top: 91px;
+    }
+    &__sec__nav{
+        width: 444px;
+        display: flex;
+        list-style: none;
+    }
+    &__secul{
+        list-style: none;
+        margin-top: 99px;
     }
 }
 

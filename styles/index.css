@@ -174,6 +174,9 @@ img {
 .container__txt {
   width: 1079px;
   height: 106px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 .container__txt__prgh {
   width: 635px;
@@ -183,6 +186,18 @@ img {
   font-style: normal;
   font-weight: 700;
   line-height: 38px; /* 135.714% */
+  margin-top: 91px;
+}
+.container__txt__sec__nav {
+  width: 444px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+.container__txt__secul {
+  list-style: none;
+  margin-top: 99px;
 }
 
 body {
