@@ -142,6 +142,40 @@
           align-items: flex-start;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+img {
+  margin-top: 20px;
+}
+
+.image__four {
+  margin-top: -170px;
+}
+
+.image__five {
+  margin-top: -233px;
+}
+
+.image__six {
+  margin-top: 15px;
+}
+
+.image__sev {
+  margin-top: -110px;
+}
+
+.image__eight {
+  margin-top: -230px;
+}
+
+.image__ten {
+  margin-top: -170px;
+}
+
+.image__elv {
+  margin-top: -230px;
 }
 
 body {
