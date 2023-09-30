@@ -1,0 +1,52 @@
+.title{
+    width: 1109px;
+    display: flex;
+    align-items: baseline;
+    flex-direction: row;
+    justify-content: space-between;
+
+    &__small{
+        color: #4A4FF2;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: -0.423px;
+        margin-top: 100px;
+    }
+    &__prgh{
+        width: 635px;
+        height: 191px;
+        color: #111;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 60px; /* 150% */
+        margin-top: -32px;
+    }
+    &__blue{
+        color: #4A4FF2;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 60px;
+    }
+    &__line{
+        width: 30px;
+        height: 2px;
+        opacity: 0.5;
+        background: #111;
+    }
+    &__left{
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+    }
+    &__right{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: flex-start;
+        
+    }
+}
