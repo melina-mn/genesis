@@ -1,0 +1,26 @@
+.container{
+    width: 1109px;
+    height: 23px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    &__logo{
+        width: 90.132px;
+        height: 19.344px;
+        fill: #111;
+    }
+    &__nav{
+        display: flex;
+        flex-direction: row;
+    }
+    &__ul{
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+    }
+    &__li{
+        display: flex;
+        margin-right: 21px;
+    }
+}
