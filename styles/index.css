@@ -570,6 +570,12 @@ img {
   background: #d04af2;
 }
 
+.map__img {
+  width: 1110px;
+  height: 570px;
+  margin-top: 121px;
+}
+
 .container {
   width: 1109px;
   height: 23px;
