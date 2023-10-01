@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/f594942deb.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="styles/index.css">
     <link rel="stylesheet" href="styles/normalize.css">
     <title>Contact</title>
@@ -43,13 +44,13 @@
                     <label class="form__name" for="name">Name</label>
                     <input type="text" name="name" id="name" class="form__fname">
                     <hr class="form__line">
-                    <label for="email" class="email">Email</label>
-                    <input type="email" name="email" id="email" class="femail">
+                    <label for="email" class="form__email">Email</label>
+                    <input type="email" name="email" id="email" class="form__femail">
                     <hr class="form__line">
-                    <label for="message-text" class="message">Message</label>
-                    <input type="text" name="message-text" id="message-text"> 
+                    <label for="message-text" class="form__message">Message</label>
+                    <input type="text" name="message-text" id="message-text" class="form__fmessage"> 
                     <hr class="form__line">
-                    <button class="form__send" type="submit">
+                    <button class="form__btn animate__animated animate__rubberBand" type="submit">
                         Submit
                     </button>
                 </form>
