@@ -490,6 +490,10 @@ img {
   line-height: 26px; /* 162.5% */
 }
 
+.sq {
+  margin: 10px;
+}
+
 .container {
   width: 1109px;
   height: 23px;
