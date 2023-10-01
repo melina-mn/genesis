@@ -214,8 +214,58 @@ img{
             }
     &__right{
         display: grid;
-        grid-template-columns: repeat(4,1fr);
-        grid-template-rows: repeat(5, 1fr);
-        
-    }
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(33, 1fr);
+        padding-right: 280px;
+        margin-top: 80px;
+        &__pro{
+            grid-column: 1/2;
+            grid-row: 1/2;
+            opacity: 0.5;
+            color: #111;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+        &__port{
+            grid-column: 2/3;
+            grid-row: 1/2;
+            color: #111;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+        &__des{
+            grid-column: 1/2;
+            grid-row: 2/3;
+            opacity: 0.5;
+            color: #111;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+        &__writter{
+            grid-column: 2/3;
+            grid-row: 2/3;
+            color: #111;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+      
+}
+}
+.new__right__cli, .new__right__del, .new__right__year, .new__right__fld, .new__right__craft, .new__right__web, .new__right__eighteen, .new__right__pers{
+    color: #111;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.new__right__cli, .new__right__del, .new__right__year, .new__right__fld{
+    opacity: 0.5;
 }
