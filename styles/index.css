@@ -8,9 +8,9 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
 }
 .container__logo {
   width: 90.132px;
@@ -42,7 +42,25 @@
   display: flex;
   margin-right: 21px;
   text-underline-position: none;
+  color: #111;
+  font-size: 18px;
+  font-style: normal;
   font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.346px;
+  font-weight: 700;
+}
+
+.container__li__fa {
+  margin-left: 70px;
+  margin-top: 20px;
+  width: 95px;
+  height: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 .title {
