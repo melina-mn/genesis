@@ -224,7 +224,7 @@ img{
     &__right{
         display: grid;
         grid-template-columns: repeat(2,1fr);
-        grid-template-rows: repeat(6, 1fr);
+        grid-template-rows: repeat(4, 2fr);
         padding-right: 280px;
         margin-top: 80px;
 
@@ -266,6 +266,7 @@ img{
             font-weight: 700;
             line-height: normal;
         }    
+        
     }
 }
 .new__right__cli, .new__right__del, .new__right__year, .new__right__fld, .new__right__craft, .new__right__web, .new__right__eighteen, .new__right__pers{
