@@ -353,6 +353,18 @@ img {
   font-weight: 400;
   line-height: 26px; /* 162.5% */
 }
+.new__prgh2 {
+  width: 635px;
+  height: 222px;
+  color: #111;
+  opacity: 0.8;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  margin-top: -20%;
+  margin-bottom: -10%;
+}
 .new__right {
   display: -ms-grid;
   display: grid;

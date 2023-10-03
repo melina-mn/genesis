@@ -211,6 +211,18 @@ img{
         font-weight: 400;
         line-height: 26px; /* 162.5% */
     }
+    &__prgh2{
+        width: 635px;
+        height: 222px;
+        color: #111;
+        opacity: 0.8;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px; /* 162.5% */
+        margin-top: -20%;
+        margin-bottom: -10%;
+    }
     &__right{
         display: grid;
         grid-template-columns: repeat(2,1fr);
