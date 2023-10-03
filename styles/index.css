@@ -319,7 +319,7 @@ img {
 }
 
 .new {
-  width: 1360px;
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -498,6 +498,11 @@ img {
 
 .sq {
   margin: 10px;
+}
+
+.img__container {
+  width: 100%;
+  min-height: 400px;
 }
 
 .last {
