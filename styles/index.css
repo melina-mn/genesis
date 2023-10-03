@@ -65,6 +65,13 @@
 
 a {
   text-decoration: none;
+  color: #111;
+}
+a:hover {
+  color: blue;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  font-size: 20px;
 }
 
 .title {

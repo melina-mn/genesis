@@ -42,4 +42,10 @@
 }
 a{
     text-decoration: none;
+    color: #111;
+    &:hover{
+        color: blue;
+        transition: 0.3s;
+        font-size: 20px;
+    }
 }
